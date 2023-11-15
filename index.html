@@ -26,7 +26,7 @@
 <input id="color1" type=color> 
 
   <script>
-    document.addEventListener("DOMContentLoaded", function(){
+    document.getElementById('color1').addEventListener("input", function(){
       localStorage.setItem("col1","color:"+document.getElementById('color1').value);
     });
   </script>
