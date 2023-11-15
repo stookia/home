@@ -21,8 +21,16 @@
 
 </B>
 
-</FONT>
+</FONT><br><br>
+
 <input id="color1" type=color> 
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function(){
+      localStorage.setItem("col1",document.getElementById('color1').value);
+    });
+  </script>
+  
 <HR>
 
 &nbsp;&nbsp;&nbsp;&nbsp;
